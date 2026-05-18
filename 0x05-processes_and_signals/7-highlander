@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Script that displays To infinity and beyond and traps SIGTERM
+# Script that displays To infinity and beyond and prints I am invincible on SIGTERM
 trap "echo 'I am invincible!!!'" SIGTERM
 while true
 do
